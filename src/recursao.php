@@ -41,7 +41,7 @@ function procurePelaChaveRecursiva(Caixa $caixa): void {
     }
 }
 
-// 🔹 Exemplo de uso:
+// Exemplo de uso:
 
 $caixaInterna = new Caixa(['meia', 'chave']);
 $caixaMedia = new Caixa(['livro', $caixaInterna]);

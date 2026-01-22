@@ -65,7 +65,7 @@ function procurePelaChave(Caixa $caixaPrincipal): void {
     echo "Nenhuma chave encontrada.\n";
 }
 
-// 🔹 Exemplo de uso:
+// Exemplo de uso:
 
 $caixaInterna = new Caixa(['meia', 'chave']);
 $caixaMedia = new Caixa(['livro', $caixaInterna]);

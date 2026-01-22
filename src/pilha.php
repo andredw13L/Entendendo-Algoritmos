@@ -40,6 +40,6 @@ function tchau(): void {
     echo PHP_EOL . "Ok, tchau!" . PHP_EOL;
 }
 
-// 🔹 Chamada inicial do programa:
+// Chamada inicial do programa:
 // Executa a função principal passando o nome "Maggie"
 saludar("Maggie");
