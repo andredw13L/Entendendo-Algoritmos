@@ -38,7 +38,6 @@ function pesquisa(string $nome_inicial, array $grafo): bool {
 
         // Tira a primeira pessoa da fila
         $pessoa = $fila_de_pesquisa->shift();
-        echo "Processando: $pessoa | Fila: " . json_encode($fila_de_pesquisa->toArray()) . PHP_EOL;
 
         // Só verifica a pessoa se ela ainda não foi analisada
         if(pessoaEVendedor($pessoa)) {
